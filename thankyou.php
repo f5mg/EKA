@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 
 
 ?>
@@ -66,33 +66,11 @@
 <div class="row align-items-center">
 	<div class="col col-lg-12 centered">
 <div class="formWrapper">
-	<form method="POST" id="signUpForm" class="animated" action="https://app.getresponse.com/add_subscriber.html" accept-charset="utf-8">
-<!-- hidden for centered form -->
-<!--<div class="logo">
-<img src="images/EKA-logo.png" alt=""/>
-</div>-->
+	
 
-<h4 id="join">Join our Email Family</h4>
+<h4 class="centered" id="join" style="text-align: center;">Thank you for Joining our Email Family!</h4>
 
-<div class="form-group form_top">
-		<div class="">
-    		<input type="text" class="form-control required" id="landing_input_name" name="name" placeholder="Name">
-    		<!-- <span class="input-group-addon"></span> -->
-        
-    		<input type="email" class="form-control required" id="landing_input_email" name="email" placeholder="Email">
-<span class="error"></span>
-		</div>
-</div>
-<input type="hidden" name="campaign_token" value="4Ju0h" />
-<input type="hidden" name="http://joinekafamily.com/thankyou.php" value=""/>
-	<!-- Forward form data to your page (optional) -->
-	<input type="hidden" name="forward_data" value="post" />
-<div class="form-group">
-  <!-- <span class="input-group-addon"></span> -->
-  <button type="submit" class="landing_input_signup btn btn-default form-control">Sign Up</button>
-</div>
-</div>	  
-		</form>
+
 </div>
 
 	</div>

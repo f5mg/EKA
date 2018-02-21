@@ -1,8 +1,4 @@
 
-$( document ).ready(function() {
-$(".formWrapper").load("./includes/form.php");
-
-});
 
 
    function ValidateEmail(email) {
